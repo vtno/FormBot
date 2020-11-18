@@ -40,3 +40,6 @@ http-server
 ```
 
 Then you should be able to run `pipenv run --variable URL:http://172.25.192.1:8080/ robot main.robot`
+
+## Docker
+Build the image with `./build_docker_image.sh <YOUR FORM URL>` and run it with `docker run formbot`.
