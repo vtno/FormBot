@@ -3,7 +3,7 @@ Library     SeleniumLibrary
 
 *** Variables ***
 ${URL}      http://172.25.192.1:8080/
-${BROWSER}  Firefox
+${BROWSER}  headlessfirefox
 
 *** Keywords ***
 Open Browser To Form
