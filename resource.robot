@@ -30,6 +30,3 @@ Open Browser To Form
     Click Button                 Next
     Execute JavaScript           document.querySelectorAll('input[type="radio"]')[0].click()    
     Click Button                 Submit
-    Page Should Contain          Your response was submitted.
-    [Teardown]
-        Close Browser
