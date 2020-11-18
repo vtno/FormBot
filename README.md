@@ -20,11 +20,11 @@ Run `pipenv shell` to start the virtual env for the project.
 
 ## Running the bot
 
-After you are inside the virtual env, run `robot main.robot`.
+After you are inside the virtual env, run `robot --variable URL:<your-form-url> main.robot`.
 
 OR
 
-Run command from outside by `pipenv run robot main.robot`
+Run command from outside by `pipenv run robot --variable URL:<your-form-url> main.robot`
 
 ## Test Run Locally 
 
@@ -36,4 +36,7 @@ I recommend you to install a static html server.
 npm i http-server -g
 # Starting server on the current dir
 http-server
+# This shoud print something like: http://172.25.192.1:8080/
 ```
+
+Then you should be able to run `pipenv run --variable URL:http://172.25.192.1:8080/ robot main.robot`
