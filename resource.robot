@@ -17,12 +17,12 @@ Open Browser To Form
     # Execute JavaScript           document.querySelectorAll('[data-pick="1605286800000"]')[0].click()
     Execute JavaScript           document.querySelectorAll('input[type="radio"]')[0].click()    
     Execute JavaScript           document.querySelectorAll('input[type="radio"]')[3].click()    
-    Execute JavaScript           document.querySelectorAll('input[type="radio"]')[9].click()    
-    Click Button                 Next
-    Execute JavaScript           document.querySelectorAll('input[type="radio"]')[2].click()    
-    Click Button                 Next
-    Execute JavaScript           document.querySelector('.select-placeholder').click()    
-    Execute JavaScript           document.querySelectorAll('.select-option-nocheck')[3].click()    
+    Execute JavaScript           document.querySelector('#Select_0_placeholder').click()    
+    Execute JavaScript           document.querySelectorAll('.select-option-nocheck')[71].click()
+    Execute JavaScript           document.querySelector('#Select_1_placeholder').click()   
+    Execute JavaScript           document.querySelectorAll('.select-option-nocheck')[2].click()
+    Execute JavaScript           document.querySelector('#Select_2').click()
+    Execute JavaScript           document.querySelectorAll('.select-option-nocheck')[4].click()
     Click Button                 Next
     Execute JavaScript           document.querySelectorAll('input[type="radio"]')[1].click()    
     Click Button                 Next
